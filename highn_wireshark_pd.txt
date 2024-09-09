@@ -22,7 +22,6 @@
 
       5 0.000093       host                  3.1.0                 USBHUB   64     CLEAR_FEATURE Request  [Port 3: C_PORT_CONNECTION]
       6 0.000131       3.1.0                 host                  USBHUB   64     CLEAR_FEATURE Response [Port 3: C_PORT_CONNECTION]
-
       7 0.000136       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
       8 0.000173       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0101, PORT_CONNECTION, PORT_POWER
@@ -42,7 +41,6 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...0 .... = C_PORT_RESET: False
-
       9 0.035198       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      10 0.035252       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0101, PORT_CONNECTION, PORT_POWER
@@ -62,7 +60,6 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...0 .... = C_PORT_RESET: False
-
      11 0.071208       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      12 0.071301       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0101, PORT_CONNECTION, PORT_POWER
@@ -82,7 +79,6 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...0 .... = C_PORT_RESET: False
-
      13 0.107180       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      14 0.107227       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0101, PORT_CONNECTION, PORT_POWER
@@ -102,7 +98,6 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...0 .... = C_PORT_RESET: False
-
      15 0.143176       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      16 0.143225       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0101, PORT_CONNECTION, PORT_POWER
@@ -122,10 +117,8 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...0 .... = C_PORT_RESET: False
-
      17 0.143337       host                  3.1.0                 USBHUB   64     SET_FEATURE Request    [Port 3: PORT_RESET]
      18 0.143378       3.1.0                 host                  USBHUB   64     SET_FEATURE Response   [Port 3: PORT_RESET]
-
      19 0.211191       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      20 0.211248       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0503, PORT_CONNECTION, PORT_ENABLE, PORT_POWER, PORT_HIGH_SPEED
@@ -145,10 +138,8 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...1 .... = C_PORT_RESET: True
-
      21 0.211255       host                  3.1.0                 USBHUB   64     CLEAR_FEATURE Request  [Port 3: C_PORT_RESET]
      22 0.211295       3.1.0                 host                  USBHUB   64     CLEAR_FEATURE Response [Port 3: C_PORT_RESET]
-
      23 0.271315       host                  3.0.0                 USB      64     GET DESCRIPTOR Request DEVICE
      24 0.271503       3.0.0                 host                  USB      82     GET DESCRIPTOR Response DEVICE
 	DEVICE DESCRIPTOR
@@ -165,10 +156,8 @@
 		iProduct: 2
 		iSerialNumber: 0
 		bNumConfigurations: 1
-
      25 0.271530       host                  3.1.0                 USBHUB   64     SET_FEATURE Request    [Port 3: PORT_RESET]
      26 0.271592       3.1.0                 host                  USBHUB   64     SET_FEATURE Response   [Port 3: PORT_RESET]
-
      27 0.339156       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      28 0.339220       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0503, PORT_CONNECTION, PORT_ENABLE, PORT_POWER, PORT_HIGH_SPEED
@@ -188,16 +177,12 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...1 .... = C_PORT_RESET: True
-
      29 0.339228       host                  3.1.0                 USBHUB   64     CLEAR_FEATURE Request  [Port 3: C_PORT_RESET]
      30 0.339266       3.1.0                 host                  USBHUB   64     CLEAR_FEATURE Response [Port 3: C_PORT_RESET]
-
      31 0.815223       host                  3.1.0                 USBHUB   64     CLEAR_FEATURE Request  [Port 3: PORT_ENABLE]
      32 0.815280       3.1.0                 host                  USBHUB   64     CLEAR_FEATURE Response [Port 3: PORT_ENABLE]
-
      33 0.815548       host                  3.1.0                 USBHUB   64     SET_FEATURE Request    [Port 3: PORT_RESET]
      34 0.815590       3.1.0                 host                  USBHUB   64     SET_FEATURE Response   [Port 3: PORT_RESET]
-
      35 0.870742       3.1.1                 host                  USB      67     URB_INTERRUPT in
      36 0.870758       host                  3.1.1                 USB      64     URB_INTERRUPT in
      37 0.883203       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
@@ -219,7 +204,6 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...1 .... = C_PORT_RESET: True
-
      39 0.927234       3.1.1                 host                  USB      67     URB_INTERRUPT in
      40 0.927243       host                  3.1.1                 USB      64     URB_INTERRUPT in
      41 0.951214       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
@@ -241,7 +225,6 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...1 .... = C_PORT_RESET: True
-
      43 1.159190       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      44 1.159250       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0100, PORT_POWER
@@ -261,7 +244,6 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...1 .... = C_PORT_RESET: True
-
      45 1.175192       3.1.1                 host                  USB      67     URB_INTERRUPT in
      46 1.175196       host                  3.1.1                 USB      64     URB_INTERRUPT in
      47 1.367190       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
@@ -283,7 +265,6 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...1 .... = C_PORT_RESET: True
-
      49 1.423167       3.1.1                 host                  USB      67     URB_INTERRUPT in
      50 1.423184       host                  3.1.1                 USB      64     URB_INTERRUPT in
      51 1.575195       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
@@ -305,16 +286,12 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...1 .... = C_PORT_RESET: True
-
      53 1.575264       host                  3.1.0                 USBHUB   64     CLEAR_FEATURE Request  [Port 3: C_PORT_RESET]
      54 1.575308       3.1.0                 host                  USBHUB   64     CLEAR_FEATURE Response [Port 3: C_PORT_RESET]
-
      55 1.575313       host                  3.1.0                 USBHUB   64     CLEAR_FEATURE Request  [Port 3: PORT_ENABLE]
      56 1.575356       3.1.0                 host                  USBHUB   64     CLEAR_FEATURE Response [Port 3: PORT_ENABLE]
-
      57 1.575512       host                  3.1.0                 USBHUB   64     CLEAR_FEATURE Request  [Port 3: PORT_ENABLE]
      58 1.575555       3.1.0                 host                  USBHUB   64     CLEAR_FEATURE Response [Port 3: PORT_ENABLE]
-
      59 1.575566       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      60 1.575608       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0100, PORT_POWER
@@ -334,10 +311,8 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...0 .... = C_PORT_RESET: False
-
      61 1.575613       host                  3.1.0                 USBHUB   64     CLEAR_FEATURE Request  [Port 3: C_PORT_CONNECTION]
      62 1.575655       3.1.0                 host                  USBHUB   64     CLEAR_FEATURE Response [Port 3: C_PORT_CONNECTION]
-
      63 1.575663       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      64 1.575704       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0100, PORT_POWER
@@ -357,7 +332,6 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...0 .... = C_PORT_RESET: False
-
      65 1.611188       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      66 1.611251       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0100, PORT_POWER
@@ -377,7 +351,6 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...0 .... = C_PORT_RESET: False
-
      67 1.647156       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      68 1.647212       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0100, PORT_POWER
@@ -397,7 +370,6 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...0 .... = C_PORT_RESET: False
-
      69 1.683213       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      70 1.683272       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0100, PORT_POWER
@@ -417,7 +389,6 @@
 		.... .... .... .0.. = C_PORT_SUSPEND: False
 		.... .... .... 0... = C_PORT_OVER_CURRENT: False
 		.... .... ...0 .... = C_PORT_RESET: False
-
      71 1.719178       host                  3.1.0                 USBHUB   64     GET_STATUS Request     [Port 3]
      72 1.719229       3.1.0                 host                  USBHUB   68     GET_STATUS Response    [Port 3]
 	Port Status: 0x0100, PORT_POWER
